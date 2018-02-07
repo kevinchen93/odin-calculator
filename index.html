@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta http-equiv="Content-type" content="text/html" charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>CALCULATOR</title>
+		<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+	<body>
+
+		<center>
+			<div id="container">
+				<div class="inner-container">
+					<div class="inner-inner-container">
+
+						<!-- answer output -->  
+						<div class="Ans-container">
+							<div class="Ans-inner-container"></div>
+							<div class="Ans-inner-container-neighbor">
+								<div class="Ans-text-container"> 
+									<span class="Ans-text" style="right:2px;">Ans =
+									</span> 
+								</div>
+							</div>
+						</div>
+
+						<!-- input -->
+						<div class="input-container">
+							<div class="input-inner-container">
+			
+
+								<div class="another-input-inner-container">
+									<div style="display: table-row">
+										<div class="unnecessary-div-to-the-left-of-input">
+										</div>
+
+										<div class="input-text-container">
+											<span class="input-text">0
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- buttons -->
+						<div class="buttons-container">
+							<div class="buttons-inner-container">
+
+								<div class="seven89">
+
+									<div class="button-container-general-style seven-container">
+										<div class="button-inner-container-general-style">
+											<button class="numbers button-cell-general-style" value="7">7</button>
+										</div>
+									</div>
+
+									<div class="button-container-general-style eight-container">
+										<div class="button-inner-container-general-style">
+											<button class="numbers button-cell-general-style">8</button>
+										</div>
+									</div>
+
+									<div class="button-container-general-style nine-container">
+										<div class="button-inner-container-general-style">
+											<button class="numbers button-cell-general-style">9</button>
+										</div>
+									</div>
+
+									<div class="button-container-general-style divide-container">
+										<div class="button-inner-container-general-style">
+											<button class="operators button-cell-general-style operators-bigger-font" style="background-color: #d6d6d6;">/</button>
+										</div>
+									</div>
+								</div>
+
+								<div class="four56">
+
+									<div class="button-container-general-style seven-container">
+										<div class="button-inner-container-general-style">
+											<button class="numbers button-cell-general-style">4</button>
+										</div>
+									</div>
+
+									<div class="button-container-general-style eight-container">
+										<div class="button-inner-container-general-style">
+											<button class="numbers button-cell-general-style">5</button>
+										</div>
+									</div>
+
+									<div class="button-container-general-style nine-container">
+										<div class="button-inner-container-general-style">
+											<button class="numbers button-cell-general-style">6</button>
+										</div>
+									</div>
+
+									<div class="button-container-general-style divide-container">
+										<div class="button-inner-container-general-style">
+											<button class="operators button-cell-general-style operators-bigger-font" style="background-color: #d6d6d6;">*</button>
+										</div>
+									</div>
+								</div>
+
+								<div class="one23">
+
+									<div class="button-container-general-style seven-container">
+										<div class="button-inner-container-general-style">
+											<button class="numbers button-cell-general-style">1</button>
+										</div>
+									</div>
+
+									<div class="button-container-general-style eight-container">
+										<div class="button-inner-container-general-style">
+											<button class="numbers button-cell-general-style">2</button>
+										</div>
+									</div>
+
+									<div class="button-container-general-style nine-container">
+										<div class="button-inner-container-general-style">
+											<button class="numbers button-cell-general-style">3</button>
+										</div>
+									</div>
+
+									<div class="button-container-general-style divide-container">
+										<div class="button-inner-container-general-style">
+											<button class="operators button-cell-general-style operators-bigger-font" style="background-color: #d6d6d6; font-size: 30px;">-</button>
+										</div>
+									</div>
+								</div>
+
+								<div class="zero">
+
+									<div class="button-container-general-style seven-container">
+										<div class="button-inner-container-general-style">
+											<button class="numbers button-cell-general-style">0</button>
+										</div>
+									</div>
+
+									<div class="button-container-general-style eight-container">
+										<div class="button-inner-container-general-style">
+											<button id="decimal-button" class="button-cell-general-style">.</button>
+										</div>
+									</div>
+
+									<div class="button-container-general-style nine-container">
+										<div class="button-inner-container-general-style">
+											<button id="equals-button" class="button-cell-general-style operators-bigger-font equals-button">=</button>
+										</div>
+									</div>
+
+									<div class="button-container-general-style divide-container">
+										<div class="button-inner-container-general-style">
+											<button id='+' class="operators button-cell-general-style operators-bigger-font" style="background-color: #d6d6d6;">+</button>
+										</div>
+									</div>
+								</div>
+
+								<div class="clear-button">
+									<div class="clear-container">
+										<div class="button-inner-container-general-style">
+											<button id="clr-button" class="button-cell-general-style" style="background-color: #d6d6d6; font-weight: lighter;">CLR</button>
+										</div>
+									</div>
+
+									<div class="clear-container">
+										<div class="button-inner-container-general-style">
+											<button id="back-button" class="button-cell-general-style" style="background-color: #d6d6d6; font-weight: lighter;">BACK</button>
+										</div>
+									</div>
+								</div>
+
+
+
+										<!-- 
+
+										<button id="7">7</button>
+										<button id="8">8</button>
+										<button id="9">9</button>
+										<button id="/">/</button>
+									</span>
+								</div>
+
+								<span>
+									<button id="4">4</button>
+									<button id="5">5</button>
+									<button id="6">6</button>
+									<button id="x">x</button>
+								</span>
+
+								<span>
+									<button id="1">1</button>
+									<button id="2">2</button>
+									<button id="3">3</button>
+									<button id="-">-</button>
+								</span>
+
+								<span>
+									<button id="0">0</button>
+									<button id=".">.</button>
+									<button id="=">=</button>
+									<button id="+">+</button>
+								</span>
+
+								<span>
+									<button id="clear">CLR</button>
+								</span> 
+
+								-->
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</center>
+
+		<script type="text/javascript" src="calculator.js"></script>
+	</body>
+	
+</html>

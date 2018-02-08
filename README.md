@@ -15,7 +15,7 @@ I will do my best!
 One thing the page is definitely missing is a more appealing landing page.
 I will learn that later on in the curriculum.
 
-Skills I demonstrated or strengthened at project end: <br>   
+Skills I demonstrated or strengthened at project end: 
 -HTML <br>
 -CSS <br>
 -JavaScript <br>
@@ -27,7 +27,7 @@ Skills I demonstrated or strengthened at project end: <br>
 -Use of event handlers such as `addEventListener` and `removeEventListener` <br>
 -Familiarity with `this` keyword
 
-
+<br>
 Known bugs (and possibly more) that I will return to fix in the future:
 1) The backspace button is not functioning properly <br>
 

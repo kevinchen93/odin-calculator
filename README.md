@@ -27,7 +27,7 @@ Skills I demonstrated or strengthened at project end:
 -Use of event handlers such as `addEventListener` and `removeEventListener` <br>
 -Familiarity with `this` keyword
 
-<br>
+
 Known bugs (and possibly more) that I will return to fix in the future:
 1) The backspace button is not functioning properly <br>
 

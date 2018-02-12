@@ -15,7 +15,7 @@ I will do my best!
 One thing the page is definitely missing is a more appealing landing page.
 I will learn that later on in the curriculum.
 
-Skills I demonstrated or strengthened at project end: 
+Skills I demonstrated or strengthened at project end: <br>
 -HTML <br>
 -CSS <br>
 -JavaScript <br>
